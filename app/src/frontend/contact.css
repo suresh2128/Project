@@ -1,0 +1,116 @@
+
+.sur{
+  background: linear-gradient(to left, #b0a43f, rgb(199, 184, 184));
+}
+.rakesh{
+  background: linear-gradient(to left, #e3f3e6, rgb(199, 184, 184));
+}
+.siva{
+  background: linear-gradient(to left, #17647a, rgb(199, 184, 184));
+}
+.siva1{
+  background: linear-gradient(to left, #2b98a0, rgb(199, 184, 184));
+}
+.yuvi{
+  background: linear-gradient(to left, #0a696f, rgb(199, 184, 184));
+}
+/* Add styles for the scroll-to-top button */
+.scrollToTopBtn {
+  position: fixed; /* Make the button a fixed element */
+  bottom: 20px; /* Adjust the distance from the bottom as desired */
+  right: 20px; /* Adjust the distance from the right as desired */
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50%;
+  display: none;
+  font-weight: bold;
+  font-size: xx-large;
+  height: 70px;
+  width: 70px;
+}
+
+/* Show the button when it's visible */
+.scrollToTopBtn.visible {
+  display: block;
+}
+.contact-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #333;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input
+{
+  margin: 20px;
+}
+textarea{
+  margin: 20px;
+}
+button{
+  margin: 20px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+}
+.background-image {
+  display: flex;
+  max-width: 1200px; /* Max width for content */
+  width: 100%;
+  overflow: hidden; /* Ensure the image does not overflow */
+}
+
+.contact-form-container {
+  flex: 1; /* Take remaining space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for form */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for visual appeal */
+}
+
+.image-aside img {
+  max-width: 100%; /* Make sure the image does not exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
